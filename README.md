@@ -7,7 +7,7 @@ Wraps a middleware and skips it if the requested path is whitelisted,
 node:
 
 ```
-$ npm install superagent
+$ npm install whitelist-passthru
 ```
 
 ## Usage
