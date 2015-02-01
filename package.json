@@ -1,0 +1,31 @@
+{
+  "name": "whitelist-passthru",
+  "version": "1.0.0",
+  "description": "Wraps a middleware and skips it if the requested path is whitelisted",
+  "main": "whitelist-passthru.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/dieb/whitelist-passthru"
+  },
+  "keywords": [
+    "middleware",
+    "path",
+    "passthrough",
+    "passthru",
+    "conditional",
+    "gateway"
+  ],
+  "author": "Andre Dieb Martins",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dieb/whitelist-passthru/issues"
+  },
+  "homepage": "https://github.com/dieb/whitelist-passthru",
+  "devDependencies": {
+    "mocha": "^2.1.0",
+    "should": "^4.6.2"
+  }
+}
