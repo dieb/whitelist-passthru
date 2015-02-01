@@ -1,4 +1,4 @@
-# whitelist-passthru [![Build Status](https://travis-ci.org/dieb/whitelist-passthru.svg?branch=master)](https://travis-ci.org/dieb/whitelist-passthru)
+# whitelist-passthru [![Build Status](https://travis-ci.org/dieb/whitelist-passthru.svg?branch=master)](https://travis-ci.org/dieb/whitelist-passthru) [![npm version](https://badge.fury.io/js/whitelist-passthru.svg)](http://badge.fury.io/js/whitelist-passthru)
 
 Wraps a middleware and skips it if the requested path is whitelisted,
 
