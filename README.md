@@ -14,14 +14,16 @@ $ npm install whitelist-passthru
 
 express:
 
-```
+```js
 var express = require('express'),
     app = express();
 
 var passthru = require('whitelist-passthru');
 
-// Will skip authMiddleware if req.path is /unprotected or /other.
-// Any other paths will go through authMiddleware
+/*
+ * Will skip authMiddleware if req.path is /unprotected or /other.
+ * Any other paths will go through authMiddleware
+ */
 app.use(passthru(authMiddleware, ['/unprotected', '/other']));
 ```
 
